@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD 1</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+     .container{
+        width:100vw;
+        height:100vh;
+        background-color: #8BC6EC;
+        background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+     }
+
+     .card{
+        width:300px;
+        height:500px;
+        background-color: white;
+        border-radius:20px;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        gap:25px;
+        padding:20px;
+     }
+
+     .card img{
+        width:97%;
+        height:50%;
+        border-radius: 10px;
+     }
+
+     .card h2{
+        font-size: 1.6rem;
+     }
+    </style>
+</head>
+<body>
+    <div class="container">
+          <div class="card">
+            <img src="Fireflame.jpg" alt="fireflame">
+            <h2>A flame is small, but its courage can swallow the night.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero repellat ipsum aut perspiciatis placeat error aliquam quisquam ut omnis!</p>
+          </div>
+    </div>
+</body>
+</html>
